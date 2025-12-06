@@ -9,7 +9,7 @@ export default function Projects(props){
                         
                                    <div className="d-flex flex-row justify-content-center projects m-5 mx-auto" id="proj">
                                    <div className="d-flex flex-column flex-wrap justify-content-center align-items-center ">
-                                            <img src={"/imgs/"+project.img}  className="h-0 w-25 img-thumbnail" alt="" />
+                                            <img src={"./imgs/"+project.img}  className="h-0 w-25 img-thumbnail" alt="" />
                                             <h1>{project.name}</h1>
                                             <h6>{project.des}</h6>
                                             <div className="d-flex flex-row " id="stack">

@@ -5,6 +5,11 @@ import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+window.scrollTo({
+  top: 0,
+  behavior: "smooth"
+});
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

@@ -1,15 +1,15 @@
 [
         {
-                "img":"logo512.png",
-                "name":"calculator",
-                "des":"wonderful project",
+                "img":"notepad.png",
+                "name":"notepad",
+                "des":"notepad that store the value",
                 "project-link":"link"
                 
         },
         {
-                "img":"logo512.png",
-                "name":"watch",
-                "des":"wonderful project",
+                "img":"login.png",
+                "name":"Login page",
+                "des":"login page with bcrypt",
                 "project-link":"link"
         }
 ]

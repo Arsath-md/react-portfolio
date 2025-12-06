@@ -1,23 +1,25 @@
+// Main App Component
+// Handles routing for the entire application.
 
 import './App.css';
-import Home from './home'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-// import About from './about';
+import Home from './home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-     <>
+    <>
+      {/* Router Wrapper */}
       <BrowserRouter basename="/react-portfolio">
-      
-      <Routes>
-          <Route path='/' element={<Home/>}/>
-         
-      </Routes>
 
-  </BrowserRouter> 
- 
-     </>
-  )
+        {/* App Routes */}
+        <Routes>
+          {/* Home Page */}
+          <Route path="/" element={<Home />} />
+        </Routes>
+
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default App;
